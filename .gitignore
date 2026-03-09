@@ -1,0 +1,39 @@
+# Xcode Essentials
+# ========================
+xcuserdata/
+DerivedData/
+build/
+
+# Compatibility & Internal Files
+# ========================
+*.xcscmblueprint
+*.xccheckout
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Playgrounds
+# ========================
+timeline.xctimeline
+playground.xcworkspace
+
+# Swift Package Manager (The modern standard)
+# ========================
+.build/
+# We keep .swiftpm to ignore local SPM state but track the actual packages
+.swiftpm
+
+# macOS / System
+# ========================
+.DS_Store
+
+# Git / Project Structure
+# ========================
+# This keeps your project structure tracked but ignores personal settings
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata/
+!*.xcodeproj/project.xcworkspace/
+!*.xcworkspace/contents.xcworkspacedata
+**/xcshareddata/WorkspaceSettings.xcsettings

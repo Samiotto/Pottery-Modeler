@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		2291C9822F5F7BFA00478B5E /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 2291C9812F5F7BFA00478B5E /* .gitignore */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		2291C9632F5F73FF00478B5E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +31,7 @@
 		2291C9532F5F73FD00478B5E /* Pottery Modeler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pottery Modeler.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2291C9622F5F73FF00478B5E /* Pottery ModelerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pottery ModelerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2291C96C2F5F740000478B5E /* Pottery ModelerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pottery ModelerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2291C9812F5F7BFA00478B5E /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -75,6 +80,7 @@
 		2291C94A2F5F73FD00478B5E = {
 			isa = PBXGroup;
 			children = (
+				2291C9812F5F7BFA00478B5E /* .gitignore */,
 				2291C9552F5F73FD00478B5E /* Pottery Modeler */,
 				2291C9652F5F740000478B5E /* Pottery ModelerTests */,
 				2291C96F2F5F740000478B5E /* Pottery ModelerUITests */,
@@ -212,6 +218,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2291C9822F5F7BFA00478B5E /* .gitignore in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
